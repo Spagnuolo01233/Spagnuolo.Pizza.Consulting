@@ -1,0 +1,166 @@
+
+body{
+    padding-top: 110px;
+}
+
+.flag-icon {
+  font-size: 1.8rem; /* Aumenta la dimensione, puoi cambiare questo valore */
+}
+
+
+.toccoColore{
+    color: #D62828;
+    font-weight: 900;
+}
+
+/* Css della barra del menu iniziale con logo e fissa in alto al sito */
+.pulsanteNavbar{
+    color: black;
+    font-family: "Abril Fatface", serif;
+    font-size: 35px;
+}
+
+.distanzaPulsanti{
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.coloreA{
+    color: rgb(32, 32, 32);
+}
+
+.coloreA:hover{
+    color: #D62828;
+}
+
+.coloreServizi{
+    color: #D62828;
+}
+
+.coloreServizi:hover{
+    color: #009246;
+}
+
+.bordoBarra{
+    background-color: white;
+}
+
+/* Navbar icone social*/
+
+.grandezzaIcona{
+    font-size: 65px;
+}
+
+.iconaLinkedin{
+    color:#0077B5;
+    border-bottom: #009246 4px solid;
+}
+
+.iconaLinkedin:hover{
+    color: #009246;
+}
+
+.iconaYoutube{
+    color: #FF0000;
+    border-bottom: #FFFFFF 4px solid;
+}
+
+.iconaYoutube:hover{
+    color: #FFFFFF;
+}
+
+.iconaInstagram{
+    color: #C13584;
+    border-bottom: #CE2B37 4px solid;
+}
+
+.iconaInstagram:hover{
+    color: #CE2B37;
+}
+
+.spaziaturaBottomIcone{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.coloreBarraSocial{
+    background-color:#f5c638;
+}
+
+/* stile del testo e titolo della parte centrale dopo immagine marinara*/
+
+.titoloCard{
+    color: black;
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+}
+
+.titoloCardSecondaParte{
+    color: black;
+    font-family: "Abril Fatface", serif;
+    font-size: 60px;
+}
+
+.testoCardDestra{
+    color: black;
+    font-family: serif;
+    font-weight:lighter;
+    font-size: 35px;
+}
+
+/* distacco services dalla parte testuale superiore */
+
+.services{
+    margin-top: 60px;
+}
+
+/*card dei servizi,tutte le caratteristiche dei testi e img e bordi*/
+
+.titoloServizi{
+    color: black;
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+}
+
+.testoCardServizi{
+    color: black;
+    font-family: serif;
+    font-weight:lighter;
+    font-size: 25px;
+}
+
+.distanzaCard{
+    margin-top: 95px;
+}
+
+/*footer tutte le specifiche dall h1 a p*/
+
+.titoloFooter{
+     color: white;
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+    padding-top: 100px;
+}
+
+.testoFooter{
+    color: white;
+    font-family: serif;
+    font-weight:lighter;
+    font-size: 35px;
+}
+
+.contattiFooter{
+    color: white;
+    font-family: serif;
+    font-weight:lighter;
+    font-size: 35px;
+}
+
+.finePagina{
+    color: white;
+    font-family: serif;
+    font-weight:lighter;
+}
+
+
+
