@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spagnuolo Pizza</title>
+    <!--tag link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--Google Font Cal Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cal+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!--Link per le Icone social-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<!-- Barra lingua fissa in alto -->
+<div class="bg-light py-1  fixed-top" style="z-index: 1031;">
+  <div class="container d-flex justify-content-end">
+    <a href="./index-en.html" class="me-3 flag-icon" title="English">🇬🇧</a>
+    <a href="./index.html" class="me-3 flag-icon" title="Italiano">🇮🇹</a>
+    <a href="./index-es.html" class="flag-icon" title="Español">🇪🇸</a>
+  </div>
+</div>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top bordoBarra" style="top: 33px;"> <!-- Aggiungi uno spostamento verso il basso -->
+    <div class="container-fluid">
+        <!-- Logo a sinistra -->
+        <a class="navbar-brand" href="#">
+            <img src="./LogoSitoWeb.svg" alt="Logo" width="500" height="90" class="d-inline-block align-text-top">
+        </a>
+
+        <!-- Bottone per menu responsive (mobile) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarButtons"
+            aria-controls="navbarButtons" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Pulsanti a destra -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarButtons">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item distanzaPulsanti">
+                    <a class="nav-link pulsanteNavbar coloreA" href="#">Home</a>
+                </li>
+                <li class="nav-item distanzaPulsanti">
+                    <a class="nav-link pulsanteNavbar coloreServizi" href="#services">Servizi</a>
+                </li>
+                <li class="nav-item distanzaPulsanti">
+                    <a class="nav-link pulsanteNavbar coloreA" href="https://www.linkedin.com/in/spagnuolo1233/" target="_blank">Chi Sono</a>
+                </li>
+                <li class="nav-item distanzaPulsanti">
+                    <a class="nav-link pulsanteNavbar coloreA" href="#footer">Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--NavBar con icone social-->
+        <div class="container-fluid spaziaturaBottomIcone coloreBarraSocial">
+          <ul class="nav justify-content-center">
+            <!--icona Linkedin-->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="https://www.linkedin.com/in/spagnuolo1233/" target="_blank"><i class="fab fa-linkedin-in grandezzaIcona iconaLinkedin"></i></a>
+            </li>
+            <!--icona YouTube-->
+            <li class="nav-item">
+              <a class="nav-link" href="https://youtube.com/@spagnuolo_pizza?si=qaGwBvuw1UKuW5zU" target="_blank"><i class="fab fa-youtube grandezzaIcona iconaYoutube"></i></a>
+            </li>
+            <!--icona Istagram-->
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/spagnuolo.pizza/" target="_blank"><i class="fab fa-instagram grandezzaIcona iconaInstagram"></i></a>
+            </li>
+          </ul>
+        </div>
+
+<!--Immagine pizza marinara dopo la navbar-->
+        <img src="./marinara.svg" class="img-fluid" alt="pizza marinara">
+
+<!--testo con a sinistra scritta grande e a destra scritta piccola con spiegazione-->
+        <div class="row spazioTop">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card border-0">
+      <div class="card-body text-center">
+        <h5 class="card-title titoloCard">Esperienza. Metodo. Identità.</h5>
+        <h5 class="card-title titoloCardSecondaParte">Servizi di consulenza e operativi per <span class="toccoColore">pizzerie</span> e appassionati di pizza.</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card border-0">
+      <div class="card-body text-center">
+        <p class="card-text testoCardDestra">Oltre <span class="toccoColore">25</span> anni dietro al banco, e sono appena iniziato. Con una laurea in Scienze e Tecnologie Alimentari e una <span class="toccoColore">passione per il buon cibo</span> che mi accompagna da sempre, ho trasformato le cucine in laboratori di sapore e precisione. Da commis a capocuoco, ho indossato ogni cappello, imparato ogni lezione, e trasformato ogni servizio in un'opportunità di crescita. Oggi, metto tutta questa esperienza a disposizione per <span class="toccoColore">aiutare</span> gli altri a migliorarsi, una pizza alla volta.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Titolo servizi inizio, solo la scritta no bottoni o card-->
+    <div id="services" class="container-fluid text-center services">
+        <h5 class="card-title titoloCard">Servizi</h5>
+    </div>
+
+<!--Inizio card con immagine e servizi-->
+    <!--prima card con servizio consulenza operativa-->
+    <div class="container card mb-3 border-0 distanzaCard">
+        <img src="./hawaiana.svg" class="card-img-top" alt="pizza hawaiana">
+    <div class="card-body text-center">
+        <h5 class="card-title titoloServizi">Consulenza Operativa per Pizzerie</h5>
+        <p class="card-text testoCardServizi">Migliora ciò che hai. Potenzia ciò che fai. Ogni <span class="toccoColore">pizzeria</span> ha una propria storia, un proprio stile, un'idea di pizza. Il mio lavoro non è cambiarla, ma aiutarti a esprimere al massimo il suo potenziale. Con il mio servizio di consulenza operativa, lavoro al tuo fianco, direttamente sul campo, per migliorare la qualità del prodotto e ottimizzare il flusso di lavoro, partendo da ciò che hai già: l'impasto, le attrezzature, il team. <span class="toccoColore">Niente</span> rivoluzioni, <span class="toccoColore">niente</span> vendite di prodotti, <span class="toccoColore">niente</span> trucchi. Solo esperienza pratica, conoscenza tecnica e soluzioni su misura che rispettano la tua identità. Se vuoi alzare il livello senza <span class="toccoColore">perdere la tua essenza</span>, possiamo lavorare insieme.</p>
+    </div>
+    </div>
+
+    <!--seconda card con servizio secret costumers-->
+        <div class="container card mb-3 border-0 distanzaCard">
+        <img src="./secretCostumer.svg" class="card-img-top" alt="banco pizza">
+    <div class="card-body text-center">
+        <h5 class="card-title titoloServizi">Cliente Segreto</h5>
+        <p class="card-text testoCardServizi">Un ospite nascosto. Un <span class="toccoColore">potente</span> punto di vista. Non puoi migliorare ciò che non vedi. Quando sei in cucina tutti i giorni, è normale non notare i piccoli dettagli—quelli che davvero influenzano l'esperienza del cliente. Ed è qui che entro in gioco io. Visito la tua pizzeria come un normale cliente, ma con gli occhi di un professionista esperto. Valuto tutto in modo discreto: impasto, cottura, servizio, flusso del team, atmosfera. Poi ti fornisco un report chiaro e <span class="toccoColore">onesto</span> con suggerimenti reali, non opinioni vaghe. Approfondimenti concreti per aiutarti a perfezionare l'offerta e alzare il livello complessivo. Nessun giudizio, nessun filtro—solo il feedback oggettivo di cui ogni attività ha bisogno, ma raramente riceve. Perché a volte, il <span class="toccoColore">miglior</span> consiglio arriva da chi non ti accorgi nemmeno che ti stava osservando.</p>
+    </div>
+    </div>
+
+    <!--terza card con servizio pizzaiolo short-term-->
+        <div class="container card mb-3 border-0 distanzaCard">
+        <img src="./lavoroShort.svg" class="card-img-top" alt="detroit pizza">
+    <div class="card-body text-center">
+        <h5 class="card-title titoloServizi">Servizi Extra, Quando e Dove Ne Hai Bisogno</h5>
+        <p class="card-text testoCardServizi">A volte un pizzaiolo serve subito. In situazioni <span class="toccoColore">particolari</span>, quando il team è sotto pressione, la qualità potrebbe risentirne. Che sia per un picco di lavoro o per un periodo di transizione, posso aiutarti a mantenere alti gli standard. Nessun impegno a lungo termine, nessun contratto complicato. Solo supporto immediato. Flessibilità totale per aiutarti a gestire i momenti di stress senza compromettere la qualità del prodotto. Più che un aiuto: una risorsa di <span class="toccoColore">professionismo</span> a disposizione, pronta a supportarti quando ne hai più bisogno.</p>
+    </div>
+    </div>
+
+<!--Footer-->
+
+<footer class="bg-dark text-light py-4 mt-5">
+  <div class="container text-center">
+    <h5 id="footer" class="mb-3 titoloFooter">Get in Touch</h5>
+    <p class="mb-1 testoFooter">C'è un progetto in mente o ti piace semplicemente parlare di pizza?<br>Contattami via email o connettiti sui social.</p>
+    <div class="my-3">
+      <a href="mailto:pie.striano@hotmail.it" class="text-light d-block mb-2 contattiFooter">
+        📩 pie.striano@hotmail.it
+      </a>
+      <a href="https://www.instagram.com/spagnuolo.pizza/" class="text-light me-3 contattiFooter" target="_blank"> Instagram
+      </a>
+      <a href="https://www.linkedin.com/in/spagnuolo1233/" class="text-light contattiFooter" target="_blank">LinkedIn
+      </a>  
+    </div>
+  </div>
+</footer>
+
+<!--Link JS Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybpyPvK5uLv4p0p/4p4Y4t0W1E6MAdL-6J4g62lwbZ2XBhH1f" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-cuHw6b0gFht9jw0Bxd5d7vHmPfw8Y5PY6kXuPRaELuF7dsyj74hujFzVGVb9ZznM" crossorigin="anonymous"></script>
+</body>
+</html>
