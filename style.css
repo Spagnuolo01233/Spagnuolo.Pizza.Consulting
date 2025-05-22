@@ -164,3 +164,69 @@ body{
 
 
 
+/* === STILI MOBILE (fino a 768px) === */
+@media (max-width: 768px) {
+  /* Logo responsive */
+  .navbar-brand img {
+    width: 200px !important;
+    height: auto !important;
+  }
+
+  /* Menu navbar mobile */
+  .navbar-nav {
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0;
+    border-top: 1px solid #ddd;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  /* Icone social */
+  .grandezzaIcona {
+    font-size: 1.5rem !important;
+  }
+
+  .nav.justify-content-center {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  /* Card testo */
+  .card-body.text-center {
+    padding: 1.5rem 1rem;
+  }
+
+  .titoloCard,
+  .titoloCardSecondaParte,
+  .titoloServizi {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .testoCardDestra,
+  .testoCardServizi {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 0 1rem;
+  }
+
+  /* Footer */
+  .contattiFooter {
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+}
